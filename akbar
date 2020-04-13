@@ -52,10 +52,10 @@ def jalan(z):
 ##### LOGO #####
 logo = """
   ======================================================
-|                   ASSALAMU ALAIKUM                      |
-|              Coded By : MUHAMMAD HAMZA                |
-|      Editing My Script Will Not Make You  a Coder    | 
-|         HAMZA THE OFFICIAL PROGRAMMER [ A.O.P ] |
+|                   ASSALAMU ALAIKUM                    |
+|              Coded By : MUHAMMAD AKBAR                |
+|      Editing My Script Will Not Make You  a Coder     | 
+|         HAMZA THE OFFICIAL PROGRAMMER [ A.O.P ]       |
 |               Whatsapp : +92 302 4171606              |
   ====================================================== """
 
@@ -89,11 +89,11 @@ print  """
  /_/    \_\_|\_\____/_/    \_\_|  \_\
 
  ======================================================
-|                   ASSALAMU ALAIKUM                      |
-|              Coded By : MUHAMMAD HAMZA                |
-|      Editing My Script Will Not Make You  a Coder    | 
-|          THE OFFICIAL PROGRAMMER [ A.O.C]               |
-|               Whatsapp : ++92 302 4171606              |
+|                   ASSALAMU ALAIKUM                    |
+|              Coded By : MUHAMMAD AKBAR                |
+|      Editing My Script Will Not Make You  a Coder     | 
+|          THE OFFICIAL PROGRAMMER [ A.O.C]             |
+|               Whatsapp : +92 302 4171606              |
   ====================================================== """
 
 
